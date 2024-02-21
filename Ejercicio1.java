@@ -29,16 +29,15 @@ public class Ejercicio1 {
          
          if (num1 <= 5){
     
-             System.out.println
-        ("El precio de su compra en dolares es: " + ((num1*500)-num2));
+             System.out.println ("El precio de su compra en dolares es: " + ((num1*500)-num2));
       
-       }else if (num1 >= 10){
-           System.out.println
-        ("El precio de su compra en dolares es: " +((num1*500)-num4));
+        }else if (num1 >= 10){
          
-       }else{
-           System.out.println
-        ("El precio de su compra en dolares es: " +((num1*500)-num3));
+             System.out.println ("El precio de su compra en dolares es: " +((num1*500)-num4));
+         
+        }else{
+           
+             System.out.println ("El precio de su compra en dolares es: " +((num1*500)-num3));
        }        
     }
 }
